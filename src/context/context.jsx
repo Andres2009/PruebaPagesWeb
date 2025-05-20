@@ -9,7 +9,7 @@ export const LanguageProvider = ({ children }) => {
 
   const getProductos = async () => {
     try {
-      const res = await axios.get('/apirest/consumo/?token=uq5-HvDeRU63_ENR&objeto=productos');
+      const res = await axios.get('https://credimovil.7-24.co/apirest/consumo/?token=uq5-HvDeRU63_ENR&objeto=productos');
       console.log(res.data);
     } catch (error) {
       console.error('Error al obtener productos:', error.message);
