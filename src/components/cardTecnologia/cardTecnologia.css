@@ -1,0 +1,15 @@
+.texto__card__Tecnologia{
+    text-align: justify;
+
+}
+.titulo__card__Tecnologia{
+    text-align: center;
+    font-weight: bold;
+}
+.card__Tecnologia{
+    border: none;
+}
+.card__Tecnologia{
+    background: black;
+    color: white;
+}

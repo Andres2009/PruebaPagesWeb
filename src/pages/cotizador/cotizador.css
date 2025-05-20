@@ -1,0 +1,37 @@
+.row__Cotizador{
+    margin-top: 56px;
+}
+.container__row__Cotizador{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/HomePulsar.PNG');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+.label__row__Cotizador{
+    display: block;
+    font-size: clamp(14px, 3vw, 24px);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.row__iframe__Cotizador{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    
+}
+.row__iframe__Cotizador iframe{
+    width: 80%;              
+    height: 1000px;           
+    border: none;          
+    border-radius: 8px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}

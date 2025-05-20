@@ -1,0 +1,18 @@
+.row__CatalogoMoto{
+    padding: 20px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+}
+
+.Titlulo__CatalogoMoto{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}

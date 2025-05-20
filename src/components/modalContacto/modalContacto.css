@@ -1,0 +1,13 @@
+.btn__modalContacto{
+    width: 100%;
+    height: 35px;
+    background-color:#002856;
+    font-size: medium;
+}
+.input_text__modalContacto{
+    height: 35px;
+    font-size: 15px;
+}
+.modalcontent__modalContacto{
+    padding: 15px;
+}

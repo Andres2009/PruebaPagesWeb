@@ -1,0 +1,21 @@
+.contenido__Footer{
+    background-color:black;
+    color: white;
+    padding: 5rem 1rem;
+    margin-top: 50px;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.logo__Footer{
+    width: 170px;
+    
+}
+.icono__right__footer{
+    color:#d63201 ;
+}
+.contenido__logo__footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}

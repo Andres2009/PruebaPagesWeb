@@ -1,0 +1,14 @@
+.contenido__seccionBarraPorcentaje{
+    text-align: center;
+    justify-content: center;
+}
+.titulo__seccionBarraPorcentaje{
+    padding-top: 20px;;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.p__seccionBarraPorcentaje{
+    color: #b2adab;
+    padding-top: 15px;
+}

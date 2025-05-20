@@ -1,0 +1,12 @@
+.titulo__TitluloSeccionBarraPorcentaje{
+    font-size: 22px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.subtitulo__TitluloSeccionBarraPorcentaje{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+.row__Promociones{
+    margin-top: 56px;
+}
+.container__row__Promociones{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/HomePulsar.PNG');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+.label__row__Promociones{
+    display: block;
+    font-size: clamp(14px, 3vw, 24px);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.row__card__imagenes__promociones{
+    padding-top: 70px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding-bottom: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    
+
+}

@@ -1,0 +1,21 @@
+.progress{
+    height: 10px;
+}
+.titulo__t__porcentajeBarra{
+    color: white;
+    font-size: 9PX;
+    font-weight: bold;
+}
+.div__contenido__procentajeBarra{
+    padding: 10px;
+}
+.progress-bar-animada {
+    width: 0;
+    animation: crecerBarra 1.2s ease-in-out forwards;
+  }
+  
+  @keyframes crecerBarra {
+    to {
+      width: var(--target-width);
+    }
+  }

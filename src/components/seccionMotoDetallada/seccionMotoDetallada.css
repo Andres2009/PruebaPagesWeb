@@ -1,0 +1,57 @@
+.contenido__seccionMotoDetallada{
+    margin-top: 40px;
+    
+}
+.titulo__seccionMotoDetallada{
+    color: white;
+    font-size: 18px;
+}
+.subtitulo_seccionModoDetallada{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Bebas Neue", Sans-serif;
+}
+.descripcion__seccionMotoDetallada{
+    color: rgb(164, 162, 162);
+    font-size: 15px;
+    text-align: justify;
+}
+
+.descripcion__seccionMotoDetallada{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.card__SeccionMotoDetallada {
+    border: none;
+    height: 500px;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+  }
+  
+.imagen__seccionMotoDetallada {
+    height: 500px;
+    width: 100%;
+    max-width: 450px;
+ }
+
+.footer__descripcion__seccionMotoDetallada{
+    text-align: center;
+    justify-content: center;
+}
+
+.footer__label__seccionMotoDetallada{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer__p__seccionMotoDetallada{
+    color: rgb(174, 183, 174);
+}
+.footer__div__seccionDetallada{
+    border-bottom: 1px solid #F90808;
+    padding-bottom: 15px;
+   
+}

@@ -1,0 +1,76 @@
+.row__Posventa{
+    margin-top: 56px;
+}
+.container__row__Posventa{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/HomePulsar.PNG');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+.label__row__Posventa{
+    display: block;
+    font-size: clamp(14px, 3vw, 24px);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo__Posventa{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+.descripcion__Posventa{
+    font-size: 20px;
+    color: #afb0b3;
+    text-align: justify;
+}
+.titulo__card__Posventa{
+    color: rgb(77, 75, 75);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenido__card__Posventa{
+    padding: 20px;
+}
+.input__card__Posventa{
+    height: 40px;
+    font-size: medium;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.card__Posventa{
+    border-radius: 15px;
+    background-color: #c7c2c5;
+}
+.subtitulo__card__Posventa{
+    text-align: center;
+    font-size: large;
+}
+.btn__card__Posventa{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    background-color: #D63201;
+    border: none;
+}
+.btn__card__Posventa:hover{
+    background-color: #d0694a;
+}
+.contenido__btn__card__Posventa{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}

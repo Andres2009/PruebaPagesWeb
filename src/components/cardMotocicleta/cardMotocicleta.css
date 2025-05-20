@@ -1,0 +1,58 @@
+.card__Motocicleta__linea{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 90%;
+    background-color: #ff0000;
+    height: 2px;
+}
+
+.card__Motocicleta__linea__padre{
+    justify-content: center;
+    justify-items: center;
+}
+
+.card__Motocicleta__titulo{
+    background-color: #003F72;
+    border-radius: 10px;
+    padding: 1% 2% 1% 1%;
+    text-align: right;
+    height: 30px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+.card__Motocicleta{
+    border-radius: 8px;
+
+}
+.marca__card__Motocicleta{
+    display: flex;
+}
+
+.modelo__card__Motocicleta{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.card__precio__Motocicleta{
+    border: 1px solid   yellow;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    white-space: nowrap;
+}
+.card__precio__Motocicleta:hover{
+    border: 1px solid  black;
+    background-color: yellow;
+    color: black;
+}
+
+.div__Contenido__card__Motocicleta{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}

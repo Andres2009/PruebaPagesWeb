@@ -1,0 +1,98 @@
+
+.contenedor__imagen__HomePulsar {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                      url('https://aburramotos.com/wp-content/uploads/2024/09/PULSAR-200.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 80vh; 
+    min-height: 300px; 
+
+    display: flex;
+    
+    flex-direction: column;
+    justify-content:  flex-end;;
+
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    text-align: right;
+}
+.btn__HomePulsar {
+    height: 60px;
+    width: 200px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    background-color: #3354a4;
+    color: white;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-bottom: 70px;
+    margin-right: 130px;
+}
+
+.btn__HomePulsar:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    .contenedor__imagen__HomePulsar {
+      height: 40vh;
+      padding: 2rem;
+    }
+  
+    .btn__HomePulsar {
+      width: 150px;
+      height: 60px;
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .contenedor__imagen__HomePulsar {
+      justify-content: center; /* centrado vertical */
+    }
+  }
+.pioneros__home{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.tecnologia__home{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row__pioneros__home{
+    margin-top: 50px;
+}
+.EspecificacionesTecnicas__Titulo__Home{
+    color:  #b2adab;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contenido__label__Especificacion{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 10PX;
+}
+.NuestraMarca__Titulo__Home{
+    color:  white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div__carousel__Home{
+    padding-top: 50px;
+    
+}
+
+.contenedor__carousel__row{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}

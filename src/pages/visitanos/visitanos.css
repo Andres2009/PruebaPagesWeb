@@ -1,0 +1,53 @@
+.row__Visitanos{
+    margin-top: 56px;
+}
+.container__row__Visitanos{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/HomePulsar.PNG');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+.label__row__Visitanos{
+    display: block;
+    font-size: clamp(14px, 3vw, 24px);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.row__Visitanos__ubicacion{
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.custom-map {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.contenido__cardPuntosVentas__Visitanos{
+    max-height: 600px;    
+    overflow-y: auto;      
+    overflow-x: hidden;
+}
+.contenido__cardPuntosVentas__Visitanos::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.contenido__cardPuntosVentas__Visitanos::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}

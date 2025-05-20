@@ -1,0 +1,36 @@
+.hover-zoom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hover-zoom-card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25); 
+    
+  }
+  
+  .shadow-border {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .titulo__CardMarcaMoto{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+
+  }
+  .contenedor__titulo__CardMarcaMoto{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 9px;
+  }
+
+  .contenedor__descripcion__CardMarcaMoto{
+    margin-top:20px ;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 9px;
+  }
+
